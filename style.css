@@ -59,3 +59,70 @@ ul {
     width: 320px;
     height: 200px;
 }
+
+/* ------------ */
+
+.scrollTopButton {
+    width: 64xp;
+    height: 64px;
+    position: fixed;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 999999;
+    background-image: url('https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronUpCircle-64.png');
+    right: 30px;
+    bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+ .show {
+    visibility: visible;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+
+/* ---------- */
+
+footer {
+    margin: top 20px;
+    height: 140px;
+    background: rgba(165, 169, 173, 0.6);
+    
+}
+
+footer p {
+    color: #fff;
+    text-align: center;    
+    margin-right: 20px;
+    font-size: small;
+}
+.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+ .fa-youtube {
+        background: #bb0000;
+        color: white;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      

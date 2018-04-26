@@ -3,26 +3,28 @@
     <head>
         <title>Portfolio</title>
         <meta charset="utf=8"/>
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
 
-        <div class="app">
+        <div class="app" id="home">
             <section class="banner">
                 <h1>Marcin Lubera</h1>
             </section> 
 
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
                 </ul>
             </nav>
 
             <section class="gallery">
-                <h1>Gallery</h1>
+                <h1 id="gallery">Gallery</h1>
                 <ul>
                     <li><img src="https://podroze.smcloud.net/t/image/t/133471/gory-w-polsce-morskie-oko_331458.jpg" alt="gora" 300/300></li>
                     <li><img src="http://gfx.radiozet.pl/var/radiozet/storage/images/podroze-radia-zet/gory-w-kolorach-teczy.-w-tym-miejscu-zakochasz-sie-od-pierwszego-wejrzenia!/423847-1-pol-PL/Gory-w-kolorach-teczy.-W-tym-miejscu-zakochasz-sie-od-pierwszego-wejrzenia!_article.jpg" alt="kolorowa gora"></li>
@@ -34,7 +36,7 @@
             </section>
 
             <section class="newsletter">
-                <h1>Newsletter</h1>
+                <h1 id="newsletter">Newsletter</h1>
                 <form action="">
                     <label> Your email
                     <input type="email" name="email" required/>
@@ -43,5 +45,14 @@
             </section>
             <script src="script.js"></script>
         </div>
+        
     </body>
+    <span class="scrollTopButton" class="show"></span>
+    <footer>
+            <a href="https://www.instagram.com/lue_back/" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <span><img src="/logo.png"></span>
+        <p><i>Copyright @Marcin Lubera 2018</i></p>
+    </footer>
 </html>
