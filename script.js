@@ -33,3 +33,16 @@ $(function(){
 		$('body').animate({scrollTop: 0}, 400, 'linear');
 	});
 });
+
+//shop
+
+$(document).ready(function() 
+{
+    $(".hak").hover(function(){
+        $(".description", this).fadeIn();
+    },
+    function()
+    {
+        $(".description", this).fadeOut();
+    });
+});
