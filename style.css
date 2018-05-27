@@ -69,7 +69,7 @@ ul {
     position: absolute; 
     text-align: center;
     padding: 15px;
-        
+
 }
 
 .axe {
@@ -90,8 +90,8 @@ ul {
     height: 200px;
 }
 
-/* ------------ */
-
+/* ------------ */ 
+/*to nie dziala*/
 .scrollTopButton {
     width: 64xp;
     height: 64px;
