@@ -45,4 +45,13 @@ $(document).ready(function()
     {
         $(".description", this).fadeOut();
     });
+
+    .dragStart(function(evt)
+    {
+        evt.dataTransfer.setData("text", $(this).attr("id"));
+        $("#info").fadeIn();
+    }).dragend(function(evt)
+    {
+        $(#info).fadeOut();
+    }
 });

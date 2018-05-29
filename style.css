@@ -62,18 +62,48 @@ ul {
     float:left;
 }
 
-.description {
+.item {
     background: rgba(165, 169, 173, 0.425);
     width: 300px;
     height: 50px;
     position: absolute; 
     text-align: center;
     padding: 15px;
-
+    margin-top: 200px;
+    
 }
 
 .axe {
+    margin-left: 330px;
+    
+}
 
+
+.cart img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    float: right;
+    padding: 5px;
+    margin-right: 70px;
+
+}
+
+.cartdesc {
+    font-size: small;
+    position: absolute;
+    text-align: right;
+    float: right;
+    right: 0;
+    margin-top: 110px;
+    margin-right: 70px;
+}
+
+#info {
+    font-size: large;
+    display: none;
+    text-align: center;
 }
 
 /*-------------*/
