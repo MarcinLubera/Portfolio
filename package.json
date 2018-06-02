@@ -18,5 +18,10 @@
   "homepage": "https://github.com/MarcinLubera/Portfolio#readme",
   "devDependencies": {
     "grunt": "^1.0.2"
+  },
+  "dependencies": {
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   }
 }
