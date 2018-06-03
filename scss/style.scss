@@ -1,17 +1,15 @@
 @import '_reset.scss';
-
-
 body {
     width: 100%;
     height: 100%;
 }
-.leftcolumn {
+.content__item--primary  {
     width: 20%;
     height: 800px;
     background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
     float: left;
 }
-.rightcolumn {
+.content__item--secondary {
     width: 80%;
     height: 800px;
     background-image: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
