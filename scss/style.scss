@@ -1,18 +1,18 @@
 @import '_reset.scss';
-.content{
+.content {
 
-.content__item {
-    height: 800px;
-    float: left;
-}
-.content__item--primary{
-    width: 20%;
-    background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
-}
-.content__item--secondary {
-    width: 80%;
-    background-image: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
-}
+    .content__item {
+        height: 800px;
+        float: left;
+    }
+    .content__item--primary{
+        width: 20%;
+        background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
+    }
+    .content__item--secondary {
+        width: 80%;
+        background-image: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
+    }
 }
 .bitmoji {
     width: 145px;
