@@ -1,19 +1,18 @@
 @import '_reset.scss';
-body {
-    width: 100%;
-    height: 100%;
-}
-.content__item--primary  {
-    width: 20%;
+.content{
+
+.content__item {
     height: 800px;
-    background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
     float: left;
+}
+.content__item--primary{
+    width: 20%;
+    background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
 }
 .content__item--secondary {
     width: 80%;
-    height: 800px;
     background-image: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
-    float: right;
+}
 }
 .bitmoji {
     width: 145px;
@@ -165,4 +164,12 @@ button:hover {
     height: 60px;
     margin-top: 10px;
     margin-left: 90px;
+}
+
+//work
+#share {
+    font-size: 35px;
+    float: right;
+    margin-top: 20px;
+    margin right: 50px;
 }
