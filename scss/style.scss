@@ -1,4 +1,5 @@
 @import '_reset.scss';
+@import '_menu.scss';
 .content {
 
     .content__item {
@@ -24,25 +25,7 @@
     background-color: #fff;
     box-sizing: border-box;
 }
-.menu {
-    font-size: 1.8em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    color: #fff;
-}
-a {
-    text-decoration: none;
-    color: rgb(216, 216, 216);
-}
-li {
-    list-style: none;
-    padding: 20px;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-li:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
+
 .fa {
     padding: 15px;
     font-size: 30px;
@@ -171,5 +154,5 @@ button:hover {
     font-size: 35px;
     float: right;
     margin-top: 20px;
-    margin right: 50px;
+    margin-right: 50px;
 }
