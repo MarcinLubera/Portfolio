@@ -3,17 +3,26 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     color: #fff;
-}
-    #header {
-    border-bottom: solid 2px #ff20c7;
+
+    
     }
     .title--primary {
         margin-top: 110px;
-        margin-left: 100px;   
+        margin-left: 100px;  
+        &::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #ff20c7;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+          } 
     }
     .title--secondary {
         margin-top: 100px;
-        margin-left: 70px;
+        margin-left: 70px; 
         font-size: 5em;
     }
     .title--tertiary {
