@@ -2,8 +2,7 @@
     padding: 20px;
     background: rgb(59, 50, 92);
     border: 1px solid rgb(59, 50, 92);
-    font: 1.3em 'Open Sans', sans-serif;
-    font-weight: 100;
+    font: 100 1.3em 'Open Sans', sans-serif;
     color: #fff;
 
     &.button--primary {
@@ -13,7 +12,7 @@
     height: 60px; 
     }
     &:hover {
-        background-color: #ff20c7;
+        background: #ff20c7;
     }
     &.button--submit {
         width: 300px;
