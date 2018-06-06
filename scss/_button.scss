@@ -1,25 +1,24 @@
 .button {
-    
     padding: 20px;
-    background-color: rgb(59, 50, 92);
-    border: rgb(59, 50, 92);
-    font-size: 1.3em;
-    font-weight: 100px;
-    font-family: 'Open Sans', sans-serif;
+    background: rgb(59, 50, 92);
+    border: 1px solid rgb(59, 50, 92);
+    font: 1.3em 'Open Sans', sans-serif;
+    font-weight: 100;
     color: #fff;
-}
-    .button--primary {
+
+    &.button--primary {
     margin-left: 70px;
     margin-top: 60px;
     width: 190px;
     height: 60px; 
     }
-    button:hover {
+    &:hover {
         background-color: #ff20c7;
     }
-    .button--submit {
+    &.button--submit {
         width: 300px;
         height: 60px;
         margin-top: 10px;
         margin-left: 90px;
     }
+}
