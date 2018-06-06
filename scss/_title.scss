@@ -1,12 +1,8 @@
 .title {
-    font-size: 2.5em;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font: 100 2.5em 'Open Sans', sans-serif;
     color: #fff;
 
-    
-    }
-    .title--primary {
+    &.title--primary {
         margin-top: 110px;
         margin-left: 100px;
         display: inline-block;  
@@ -21,13 +17,14 @@
             bottom: -3px;
           } 
     }
-    .title--secondary {
+    &.title--secondary {
         margin-top: 100px;
         margin-left: 70px; 
         font-size: 5em;
     }
-    .title--tertiary {
+    &.title--tertiary {
         color: #ff20c7;
         margin-left: 70px;
         margin-top: 10px;  
     }
+}
