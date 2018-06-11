@@ -4,15 +4,16 @@
 @import '_button.scss';
 @import '_form.scss';
 @import '_content.scss';
+@import 'assets/_colors.scss';
 
 .bitmoji {
     width: 145px;
     height: 145px;
     margin-top: 115px;
     margin-left: 60px;
-    border: solid 2px #000;
+    border: solid 2px $cl-black;
     border-radius: 145px;
-    background-color: #fff;
+    background: $cl-white;
     box-sizing: border-box;
 }
 .fa {
@@ -22,7 +23,7 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    color: rgb(148, 148, 148);
+    color: $cl-grey;
   }
 
 .icons {
@@ -30,13 +31,13 @@
       margin-left: 15px;
   }
 a:hover {
-      color: #ff20c7;
+      color: $cl-pink;
   }
 
 .dot {
         height: 15px;
         width: 15px;
-        background-color: #ff20c7;
+        background: $cl-pink;
         border-radius: 50%;
         display: inline-block;
       }
@@ -47,10 +48,10 @@ h4 {
     font-size: 1.5em;
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.459);
+    color: $cl-grey5;
 }
 .span{
-    color: #ff20c7;
+    color: $cl-pink;
 }
 //work
 #share {

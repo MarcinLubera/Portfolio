@@ -1,9 +1,11 @@
+@import 'assets/_colors.scss';
+
 .button {
     padding: 20px;
-    background: rgb(59, 50, 92);
-    border: 1px solid rgb(59, 50, 92);
+    background: $cl-grey3;
+    border: 1px solid $cl-grey3;
     font: 100 1.3em 'Open Sans', sans-serif;
-    color: #fff;
+    color: $cl-white;
 
     &.button--primary {
     margin-left: 70px;
@@ -12,7 +14,7 @@
     height: 60px; 
     }
     &:hover {
-        background: #ff20c7;
+        background: $cl-pink;
     }
     &.button--submit {
         width: 300px;
