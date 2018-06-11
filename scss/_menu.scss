@@ -2,26 +2,46 @@
 @import 'assets/_mixins.scss';
 
 .menu {
-    font: 100 1.8em 'Open Sans', sans-serif;
-    @include breakpoint(desktop_big) {
-        font-size: 2.5em;
-        margin-top: 60px;
+  font: 100 1.8em 'Open Sans', sans-serif;
+
+  @include breakpoint(desktop_big) {
+    font-size: 2.5em;
+    margin-top: 60px;
+  }
+
+  &--mobile {
+    display: none;
+    padding-top: 80px;
+  }
+
+  &__item {
+    list-style: none;
+    padding: 20px;
+    margin-top: 15px;
+
+    .menu--mobile & {
+      padding: 10px 20px;
     }
-     &__item {
-        list-style: none;
-        padding: 20px;
-        margin-top: 15px;
-        
-        &:hover {
-            background: $cl-grey4;
-        }
+    &.is-active {
+      border-left: 5px solid $cl-pink;
+    } 
+
+    &:hover {
+      background: $cl-grey4;
     }
-     &__link {
-        text-decoration: none;
-        color: $cl-darkwhite;   
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $cl-darkwhite;
+  }
+
+  &__wrapper {
+    list-style: none;
+    margin-top: 40px;
+
+    .menu--mobile & {
+      margin-top: 0px;
     }
-    &__wrapper {
-        list-style: none;
-        margin-top: 40px;
-    }
+  }
 }
