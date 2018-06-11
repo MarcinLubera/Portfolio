@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Marcin Lubera </title>
-<link rel="Stylesheet" type="text/css" href="css/style.css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title> Marcin Lubera </title>
+    <link rel="Stylesheet" type="text/css" href="css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="referrer" content="origin">
 </head>
-
 <body>
     <div class="content">
         <div class="hmbg-menu js-hmbg-menu">
@@ -40,16 +40,12 @@
             <h1 class="title title--primary">About</h1>
             <h2 class="title title--quaternary">Project brief description</h2>
             <div class="form">
-                <form class="form__content">
-                    <input class="form__input form__input--primary" type="text" name="project brief description" placeholder="   Project type, Target customer, timeline, estimate etc...">
-                    <h2 class="title title--quaternary">About you</h2> 
-                    <input type="text" class="form__input form__input--secondary" placeholder=" Full Name">
-                    <input type="text" class="form__input form__input--tertiary" placeholder=" Email adress">
-                    <input type="text" class="form__input form__input--secondary" placeholder=" Company Name">
-                    <input type="text" class="form__input form__input--tertiary" placeholder=" Position">
+                <form class="form__content" action="https://formspree.io/lubera.marcin@gmail.com" method="POST">
+                    <input class="form__input form__input--primary" type="email" name="email" placeholder="Your email">
+                    <textarea class="form__input form__input--secondary" name="message" placeholder="Your message"></textarea>
+                    <button type="submit">Send</button>
                 </form>
             </div>
-            <button class="button button--submit"> Request a Quote</button> 
         </div>
     </div>
     <script src="js/script.js"></script>
