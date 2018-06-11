@@ -35,6 +35,9 @@
   &__link {
     text-decoration: none;
     color: $cl-darkwhite;
+    &:hover{
+      color:$cl-darkwhite;
+    }
   }
 
   &__wrapper {
