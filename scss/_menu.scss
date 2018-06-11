@@ -1,8 +1,12 @@
 @import 'assets/_colors.scss';
+@import 'assets/_mixins.scss';
 
 .menu {
     font: 100 1.8em 'Open Sans', sans-serif;
-  
+    @include breakpoint(desktop_big) {
+        font-size: 2.5em;
+        margin-top: 60px;
+    }
      &__item {
         list-style: none;
         padding: 20px;

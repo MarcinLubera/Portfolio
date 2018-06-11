@@ -1,15 +1,36 @@
-.content {
+@import 'assets/_mixins.scss';
 
+.content {
     .content__item {
         height: 800px;
         float: left;
+        padding: 20px;
+        box-sizing: border-box;
+        @include breakpoint(phone) {
+            //display: none;
+        }
+       
     }
     .content__item--primary{
         width: 20%;
         background-image: linear-gradient(to left, #251340, #3c1d4e, #54285c, #6d3368, #863f74);
+        display: none;
+        @include breakpoint(tablet_big) {
+            display: block;
+        }
+        @include breakpoint(desktop_big) {
+            height: 100vh;
+        }
     }
     .content__item--secondary {
-        width: 80%;
+        width: 100%;
         background-image: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
+        @include breakpoint(tablet_big) {
+            width: 80%;
+            padding: 60px;
+        }
+        @include breakpoint(desktop_small) {
+            padding: 60px; 
+        }
     }
 }

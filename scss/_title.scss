@@ -1,38 +1,45 @@
 @import 'assets/_colors.scss';
+@import 'assets/_mixins.scss';
 
 .title {
     font: 100 2.5em 'Open Sans', sans-serif;
     color: $cl-white;
-
+    @include breakpoint(desktop_big){
+        font-size: 4.5em;
+    }
     &--primary {
         margin-top: 110px;
-        margin-left: 100px;
-        display: inline-block;  
+        display: none;  
+        position: relative;
         &::after {
             content: '';
             display: block;
             width: 100%;
             height: 2px;
             background: $cl-pink;
-            position: relative;
+            position: absolute;
             left: 0;
             bottom: -3px;
           } 
     }
     &--secondary {
-        margin-top: 100px;
-        margin-left: 70px; 
+        margin-top: 70px;
         font-size: 5em;
+        line-height: 1;
+        @include breakpoint(desktop_big){
+            font-size: 7em;
+        }
     }
     &--tertiary {
         color: $cl-pink;
-        margin-left: 70px;
         margin-top: 10px;  
     }
     &--quaternary {
-        margin-left: 70px;
         margin-top: 60px;
         font: 100 1.5em 'Open Sans', sans-serif;
         color: $cl-grey2;
+        @include breakpoint(desktop_big){
+            font-size: 3.5em;
+        }
     }
 }
