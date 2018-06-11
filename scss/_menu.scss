@@ -22,9 +22,10 @@
     .menu--mobile & {
       padding: 10px 20px;
     }
+
     &.is-active {
       border-left: 5px solid $cl-pink;
-    } 
+    }
 
     &:hover {
       background: $cl-grey4;
