@@ -1,18 +1,24 @@
+@import 'assets/_colors.scss';
+@import 'assets/_mixins.scss';
+
 .menu {
     font: 100 1.8em 'Open Sans', sans-serif;
-  
+    @include breakpoint(desktop_big) {
+        font-size: 2.5em;
+        margin-top: 60px;
+    }
      &__item {
         list-style: none;
         padding: 20px;
         margin-top: 15px;
         
         &:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: $cl-grey4;
         }
     }
      &__link {
         text-decoration: none;
-        color: rgb(216, 216, 216);   
+        color: $cl-darkwhite;   
     }
     &__wrapper {
         list-style: none;

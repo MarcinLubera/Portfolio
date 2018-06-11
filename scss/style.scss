@@ -4,53 +4,60 @@
 @import '_button.scss';
 @import '_form.scss';
 @import '_content.scss';
-
-.bitmoji {
-    width: 145px;
-    height: 145px;
-    margin-top: 115px;
-    margin-left: 60px;
-    border: solid 2px #000;
-    border-radius: 145px;
-    background-color: #fff;
-    box-sizing: border-box;
+@import 'assets/_colors.scss';
+@import '_typo.scss';
+@import '_content-box.scss';
+@import 'assets/_mixins.scss';
+body {
+    font-size: 12px;
+    background: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
 }
+.bitmoji {
+    height: 145px;
+    border: solid 2px $cl-black;
+    border-radius: 50%;
+    background: $cl-white;
+    box-sizing: border-box;
+    margin-top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+}
+
 .fa {
     padding: 15px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 15px !important;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    color: rgb(148, 148, 148);
+    color: $cl-grey;
+    @include breakpoint(desktop_big) {
+        padding: 28px;
+        font-size: 23px !important;
+    }
   }
 
 .icons {
       margin-top: 65px;
-      margin-left: 15px;
+      display: flex;
+      justify-content: center;
+
+
   }
 a:hover {
-      color: #ff20c7;
+      color: $cl-pink;
   }
 
 .dot {
         height: 15px;
         width: 15px;
-        background-color: #ff20c7;
+        background: $cl-pink;
         border-radius: 50%;
         display: inline-block;
       }
-h4 {
-    width: 550px;
-    margin-left: 70px;
-    margin-top: 40px;
-    font-size: 1.5em;
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
-    color: rgba(255, 255, 255, 0.459);
-}
+
 .span{
-    color: #ff20c7;
+    color: $cl-pink;
 }
 //work
 #share {

@@ -1,0 +1,11 @@
+@import 'assets/_mixins.scss';
+.typo {
+    &--primary{
+        margin-top: 40px;
+        font: 100 1.5em 'Open Sans', sans-serif;
+        color: $cl-grey5;
+        @include breakpoint(desktop_big) {
+        font-size: 2.1em;
+    }
+}
+}
