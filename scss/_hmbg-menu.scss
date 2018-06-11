@@ -1,0 +1,21 @@
+@import 'assets/_colors.scss';
+@import 'assets/mixins.scss';
+
+.hmbg-menu {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  
+  @include breakpoint(tablet_big) {
+    display: none;
+  }
+
+  &__item {
+    display: block;
+    height: 5px;
+    background: $cl-darkwhite;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+}

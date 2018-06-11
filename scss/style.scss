@@ -8,6 +8,8 @@
 @import '_typo.scss';
 @import '_content-box.scss';
 @import 'assets/_mixins.scss';
+@import '_hmbg-menu.scss';
+
 body {
     font-size: 12px;
     background: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);

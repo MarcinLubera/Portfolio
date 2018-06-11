@@ -4,7 +4,7 @@
     .content__item {
         height: 800px;
         float: left;
-        padding: 20px;
+        padding-top: 20px;
         box-sizing: border-box;
         @include breakpoint(phone) {
             //display: none;
@@ -17,6 +17,7 @@
         display: none;
         @include breakpoint(tablet_big) {
             display: block;
+            height: 100vh;
         }
         @include breakpoint(desktop_big) {
             height: 100vh;
