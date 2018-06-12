@@ -43,10 +43,17 @@
   }
 
   &.button--submit {
-    width: 300px;
+    width: 40%;
     height: 60px;
     margin-top: 20px;
-    margin-left: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    @include breakpoint(tablet_big) {
+      width: 20%;
+      transform: none;
+    }
   }
 
   &.button--mrlr10 {

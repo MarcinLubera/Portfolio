@@ -9,62 +9,57 @@
 @import '_content-box.scss';
 @import 'assets/_mixins.scss';
 @import '_hmbg-menu.scss';
+@import '_technology-icons.scss';
 
 body {
-    font-size: 12px;
-    background: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
+  font-size: 12px;
+  background: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
 }
+
 .bitmoji {
-    height: 145px;
-    border: solid 2px $cl-black;
-    border-radius: 50%;
-    background: $cl-white;
-    box-sizing: border-box;
-    margin-top: 60px;
-    left: 50%;
-    transform: translate(-50%);
-    position: relative;
+  height: 145px;
+  border: solid 2px $cl-black;
+  border-radius: 50%;
+  background: $cl-white;
+  box-sizing: border-box;
+  margin-top: 60px;
+  left: 50%;
+  transform: translate(-50%);
+  position: relative;
 }
 
 .fa {
-    padding: 15px;
-    font-size: 15px !important;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: $cl-grey;
-    @include breakpoint(desktop_big) {
-        padding: 28px;
-        font-size: 23px !important;
-    }
+  padding: 15px;
+  font-size: 15px !important;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: $cl-grey;
+
+  @include breakpoint(desktop_big) {
+    padding: 28px;
+    font-size: 23px !important;
   }
+}
 
 .icons {
-      margin-top: 65px;
-      display: flex;
-      justify-content: center;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+}
 
-
-  }
 a:hover {
-      color: $cl-pink;
-  }
+  color: $cl-pink;
+}
 
 .dot {
-        height: 15px;
-        width: 15px;
-        background: $cl-pink;
-        border-radius: 50%;
-        display: inline-block;
-      }
-
-.span{
-    color: $cl-pink;
+  height: 15px;
+  width: 15px;
+  background: $cl-pink;
+  border-radius: 50%;
+  display: inline-block;
 }
-//work
-#share {
-    font-size: 35px;
-    float: right;
-    margin-top: 20px;
-    margin-right: 50px;
+
+.span {
+  color: $cl-pink;
 }
