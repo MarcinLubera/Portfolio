@@ -11,9 +11,14 @@
 @import '_hmbg-menu.scss';
 @import '_technology-icons.scss';
 
+html {
+  height: 100%;
+}
+
 body {
   font-size: 12px;
   background: linear-gradient(to left, #251340, #22113c, #200f39, #1d0d35, #1b0a32);
+  height: 100%;
 }
 
 .bitmoji {
@@ -62,4 +67,10 @@ a:hover {
 
 .span {
   color: $cl-pink;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
