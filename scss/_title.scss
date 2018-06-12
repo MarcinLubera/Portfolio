@@ -2,7 +2,7 @@
 @import 'assets/_mixins.scss';
 
 .title {
-  font: 100 2.5em 'Open Sans',sans-serif;
+  font: 100 2.5em 'Open Sans', sans-serif;
   color: $cl-white;
 
   @include breakpoint(desktop_big) {

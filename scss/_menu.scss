@@ -35,8 +35,9 @@
   &__link {
     text-decoration: none;
     color: $cl-darkwhite;
-    &:hover{
-      color:$cl-darkwhite;
+
+    &:hover {
+      color: $cl-darkwhite;
     }
   }
 
@@ -45,7 +46,7 @@
     margin-top: 40px;
 
     .menu--mobile & {
-      margin-top: 0px;
+      margin-top: 0;
     }
   }
 }
